@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Bus Stop.sln"
+    "dotnet.defaultSolution": "BusStop-MienRepository.sln"
 }
