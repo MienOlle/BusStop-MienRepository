@@ -4,19 +4,28 @@ using UnityEngine;
 
 public class gameLogic : MonoBehaviour
 {
+    private GameObject[] anomalyItem;
     public GameObject anomaly1Origin;
     public GameObject anomaly1V2Changed;
     public GameObject anomaly1Changed;
     bool anomaly1State;
     bool anomaly2State;
-    private bool newLevel = false;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        anomalyItem = GameObject.FindGameObjectsWithTag("anomalies");
+    }
+
+    void Start(){
+        foreach(GameObject anom in anomalyItem){
+            anom.SetActive(false);
+        }
+    }
+
+    public void randomAnom(){
         anomaly1State = false;
         anomaly2State = false;
-        
         
         int numAnomaly = Random.Range(0,3);
         while(numAnomaly > 0){

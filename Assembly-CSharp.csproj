@@ -59,16 +59,16 @@
     <UnityVersion>2023.2.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\asush\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.3\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\asush\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.4\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="D:\Unity 2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Unity 2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="D:\Unity 2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\OriginalStuff\Script\busScript.cs" />
-    <Compile Include="Assets\OriginalStuff\Script\NewAnomalyLevel.cs" />
     <Compile Include="Assets\OriginalStuff\Script\gameLogic.cs" />
     <Compile Include="Assets\OriginalStuff\Script\playerScript.cs" />
+    <Compile Include="Assets\OriginalStuff\Script\restartLogic.cs" />
     <Compile Include="Assets\OriginalStuff\Script\cameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>

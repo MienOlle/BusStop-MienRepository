@@ -388,8 +388,8 @@
 "Assets/OriginalStuff/Script/busScript.cs"
 "Assets/OriginalStuff/Script/cameraFollow.cs"
 "Assets/OriginalStuff/Script/gameLogic.cs"
-"Assets/OriginalStuff/Script/NewAnomalyLevel.cs"
 "Assets/OriginalStuff/Script/playerScript.cs"
+"Assets/OriginalStuff/Script/restartLogic.cs"
 -langversion:9.0
 
 /deterministic
