@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 115370551}
   - component: {fileID: 115370550}
   m_Layer: 0
-  m_Name: startPoint
+  m_Name: startGame
   m_TagString: startGame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1853,7 +1853,7 @@ GameObject:
   - component: {fileID: 1453282699}
   - component: {fileID: 1453282698}
   m_Layer: 0
-  m_Name: EndPoint
+  m_Name: EndGame
   m_TagString: endGame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1874,7 +1874,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
